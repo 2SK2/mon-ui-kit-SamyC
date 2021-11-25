@@ -1,0 +1,46 @@
+.navbar {
+	display: flex;
+	align-items: center;
+	position: fixed;
+	background-color: black;
+	box-shadow: 0px 10px 30 px red;
+	width: 100%;
+	z-index: 1;
+	margin: 0px;
+	justify-content: space-between;
+	border-
+}
+
+.navbar img {
+	width: 100px;
+	height: 100px;
+}
+
+.navbar ul {
+	display: flex;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	flex-grow: 1;
+	gap: 20px;
+	justify-content: flex-end;
+	margin: 20px;
+
+}
+
+.navbar li {
+	font-family: 'Poppins';
+	text-transform: uppercase;
+	color: white;
+
+}
+
+.navbar li:hover {
+	border-bottom: 2px #FFC717 solid;
+}
+
+.navbar p {
+	color: white;
+	font-family: bebas neue;
+	font-size: 20px;
+}
