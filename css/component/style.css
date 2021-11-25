@@ -1,0 +1,61 @@
+@import url("component/divider.css");
+@import url("component/banner.css");
+@import url("component/container.css");
+@import url("component/button.css");
+@import url("component/avatar.css");
+@import url("component/card.css");
+@import url("component/navbar.css");
+
+body{
+	background-color: black;
+	font-family: "roboto", sans-serif;
+	font-size: 14px;
+	color: #FFC717;
+	margin-top: -70px;
+	
+}
+
+h1,h2,h3{
+	font-family: "raleway," sans-serif;
+	font-weight: bold;
+	color: #FFC717;
+	text-align: center;
+
+}
+h3 {
+	font-size: 25px;
+	color: black;
+}
+a{
+	text-decoration: none;
+}
+
+.avatar-rounded {
+	width: 600px;
+	height: 400px;
+
+}
+
+h1 {
+	color: black;
+}
+
+h2 {
+	text-decoration: underline;
+}
+h4 {
+	color: black;
+}
+
+h5 {
+	font-family: bebas neue;
+	color: #FFC717;
+	font-size: 20px;
+}
+.card-white:hover {
+	border: 7px #FFC717 solid; 
+}
+
+p {
+	font-size: 22px;
+}
